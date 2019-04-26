@@ -5,7 +5,7 @@ function Character(props) {
     return (
         <div className="card">
             <div className ="character-info">
-                <h1>{props.character.name}</h1>
+                <h2 className="name">{props.character.name}</h2>
                 <p>
                     <strong>Birth year: </strong> {props.character.birth_year}
                 </p>
