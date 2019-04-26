@@ -18,6 +18,12 @@ function Character(props) {
                 <p>
                     <strong>Height: </strong> {props.character.height}
                 </p>
+                <p>
+                    <strong>Mass : </strong> {props.character.mass}
+                </p>
+                <p>
+                    <strong>Hair color: </strong> {props.character.hair_color}
+                </p>
             </div>
         </div>
     )
