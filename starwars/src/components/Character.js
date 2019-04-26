@@ -10,9 +10,6 @@ function Character(props) {
                     <strong>Birth year: </strong> {props.character.birth_year}
                 </p>
                 <p>
-                    <strong>Homeworld: </strong> <a href={props.character.homeworld}> See Here </a>
-                </p>
-                <p>
                     <strong>Gender: </strong> {props.character.gender}
                 </p>
                 <p>
