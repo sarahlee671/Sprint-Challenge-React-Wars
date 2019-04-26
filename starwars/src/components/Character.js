@@ -11,6 +11,12 @@ function Character(props) {
                 <p>
                     <strong>Homeworld: </strong> <a href={props.character.homeworld}> See Here </a>
                 </p>
+                <p>
+                    <strong>Gender: </strong> {props.character.gender}
+                </p>
+                <p>
+                    <strong>Height: </strong> {props.character.height}
+                </p>
             </div>
         </div>
     )
