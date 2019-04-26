@@ -5,6 +5,12 @@ function Character(props) {
         <div className="card">
             <div className ="character-info">
                 <h1>{props.character.name}</h1>
+                <p>
+                    <strong>Birth year: </strong> {props.character.birth_year}
+                </p>
+                <p>
+                    <strong>Homeworld: </strong> <a href={props.character.homeworld}> See Here </a>
+                </p>
             </div>
         </div>
     )
