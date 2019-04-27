@@ -1,0 +1,33 @@
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.class-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 15px;
+    background:rgb(65, 135, 142, 0.5);
+}
+
+.card:hover {
+    background: rgb(65, 135, 142, 0.9);
+}
+
+.name {
+    text-shadow: 2px 2px 4px orange;
+}
